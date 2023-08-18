@@ -1,35 +1,16 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-    <title>Dragon Ball Anime Characters By</title>
-    <style>
-        /* Inline styles */
-        h1, h2 {
-            color: orange;
-            font-size: 25px;
-        }
-            
-        table {
-            border-collapse: collapse;
-            width: 100%;
-        }
-        
-        /* Internal styles */
-        body {
-            background-color: pink;
-            color: light green;
-            font-family: Roman;
-        }
-    </style>
+    <title>Dragon Ball Anime Characters</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h1>Dragon Ball Super Universe Characters</h1>
-    
 
-    <img src= "https://wallpaperaccess.com/full/2537272.jpg" alt="Dragon Ball Supers">
+    <img src="https://wallpaperaccess.com/full/2537272.jpg" alt="Dragon Ball Supers" width="800" height="750">
     
     <h2>Character Information</h2>
-    <table border="5">
+    <table>
         <tr>
             <th>Character</th>
             <th>Destruction Level</th>
@@ -44,7 +25,7 @@
         </tr>
         <tr>
             <td style="color: purple;">Jiren</td>
-            <td style="color: maroon;">12.5 Septillion </td>
+            <td style="color: maroon;">12.5 Septillion</td>
             <td style="color: red;">780</td>
             <td style="color: green;">11</td>
         </tr>
@@ -56,13 +37,13 @@
         </tr>
         <tr>
             <td style="color: purple;">Lord Beerus</td>
-            <td style="color: maroon;">9.5 Sextillion </td>
+            <td style="color: maroon;">9.5 Sextillion</td>
             <td style="color: red;">Millennia</td>
             <td style="color: green;">7</td>
         </tr>
         <tr>
             <td style="color: purple;">Vegeta</td>
-            <td style="color: maroon;">9.5 Sextillion </td>
+            <td style="color: maroon;">9.5 Sextillion</td>
             <td style="color: red;">48</td>
             <td style="color: green;">7</td>
         </tr>
@@ -71,21 +52,18 @@
     <h2>Character Information Form</h2>
     <form action="#" method="post">
         <label for="character">Character Name:</label>
-        <input type="number" id="character" name="character" required><br><br>
+        <input type="text" id="character" name="character" required><br><br>
         
         <label for="destruction">Destruction Level:</label>
-        <input type="number" id="destruction" name="destruction" required><br><br>
+        <input type="text" id="destruction" name="destruction" required><br><br>
         
         <label for="age">Age:</label>
-        <input type="number" id="age" name="age" required><br><br>
+        <input type="text" id="age" name="age" required><br><br>
         
         <label for="universe">Universe:</label>
-        <input type="number" id="universe" name="universe" required><br><br>
+        <input type="text" id="universe" name="universe" required><br><br>
         
         <input type="submit" value="Add DBS Character">
     </form>
 </body>
 </html>
-
-
-
