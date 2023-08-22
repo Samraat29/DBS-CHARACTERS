@@ -1,23 +1,23 @@
 External styles
-        /* Inline styles */
-        h1, h2 {
+        
+        h2 {
             color: orange;
             font-size: 25px;
-        }
+            }
         
         table {
             border-collapse: collapse;
             width: 70%;
-        }
+            }
         
-        /* Internal styles */
+        
         body {
             background-color: pink;
             color: rgb(67, 195, 200);
             font-family: Roman;
         }
         
-        table, th, td {
+        th, td {
             border: 6px solid rgb(207, 197, 121);
         }
    
